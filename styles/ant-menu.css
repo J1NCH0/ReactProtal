@@ -1,0 +1,43 @@
+.ant-menu-overflow {
+    background: #161B22 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ant-menu-overflow:before {
+    display: none;
+}
+
+.ant-menu-overflow-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+}
+
+.ant-menu-title-content {
+    font-family: 'Noto Sans Georgian', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+}
+.ant-menu-light {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.ant-menu-item-selected::after {
+    border-bottom-width: 3px !important;
+}
+
+.ant-menu-item:hover {
+    color: #007BFC !important;
+}
+
+.ant-select-selection-item {
+    position: relative;
+    top: 2px;
+}
+
+.ant-menu-overflow-item {
+    padding: 35px !important;
+}

@@ -1,0 +1,19 @@
+
+.selectsWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.selectInput {
+    width: 131px;
+    height: 100%;
+}
+.ant-span {
+    font-family: "Noto Sans Georgian", sans-serif !important;
+}
+
+.BorderedSelect:global {
+    border: 2px solid #161B22 !important;
+    border-radius: 4px !important;
+}
