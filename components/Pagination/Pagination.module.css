@@ -1,0 +1,25 @@
+.PaginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 165px;
+    height: 43px !important;
+    gap: 8px;
+    background-color: #0E1117;
+    width: fit-content;
+    padding: 8px 12px 8px 16px;
+    border: 2px solid #161B22;
+    border-radius: 4px;
+}
+
+.Pages {
+    display: inline-block;
+    white-space: nowrap;
+    min-width: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+

@@ -1,19 +1,21 @@
 import React from 'react';
+import styles from './Pagination.module.css'
 import type { PaginationProps } from 'antd';
 import { Pagination } from 'antd';
+import { useState } from "react";
 
 const MyPagination = () => {
-
+    const [page, setPage] = useState(1)
     return (
-        // <Pagination
-        //     current={1} // set the current page to 1
-        //     total={total} // set the total number of items to 100
-        //     pageSize={pageSize} // set the page size to 10 items per page
-        //     onChange={handlePageChange} // handle page change event
-        //     itemRender={itemRender} // customize pagination item rendering
-        // />
-
-        <Pagination defaultCurrent={1} total={50} responsive />
+        <div className={styles.PaginationWrapper}>
+            <span className={styles.Pages}>{page} of 10</span>
+            <Pagination
+                current={page}
+                total={100} // set the total number of items to 100
+                responsive // make the pagination component responsive
+                onChange={setPage}
+            />
+        </div>
     );
 }
 export default MyPagination

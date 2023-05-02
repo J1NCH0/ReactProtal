@@ -1,0 +1,21 @@
+.StepperWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    gap: 2px;
+}
+
+.StepperWrapper >:nth-child(1) {
+    border-radius: 24px 0 0 24px;
+}
+
+.StepperWrapper >:last-child {
+    border-radius: 0 24px 24px 0;
+}
+
+.Stepper {
+    width: 34.14px;
+    height: 4px;
+    background-color: #007CFF;
+}

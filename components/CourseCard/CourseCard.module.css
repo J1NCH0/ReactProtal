@@ -1,0 +1,41 @@
+.CoursesWrapper {
+    padding: 14px;
+    border: 2px solid #161B22;
+    border-radius: 8px;
+}
+
+.Course {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.CourseInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.CourseTitle {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.04px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.CourseImage {
+    width: 251px;
+    height: 160px;
+    border-radius: 4px;
+}
+
+.TopicCaption {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16.32px;
+    color: rgba(255, 255, 255, 0.3);
+}
